@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>variables</title>
+	<style type="text/css">
+		table,tr,td,th{
+
+border: 40px solid pink;font-size: 20px;text-align: 20px;margin: 15px;
+
+		}
+
+	</style>
+
+<center>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">NAME</th>
+      <th scope="col">YEAR</th>
+   
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="demo"></td>
+      <td id="demo1"></td>
+ 
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td id="demo2"></td>
+      <td id="demo3"></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td id="demo4"></td>
+      <td id="demo5"></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+</center><br><p>
+
+
+
+<center>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">NAME</th>
+      <th scope="col">color</th>
+   
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="demo6"></td>
+      <td id="demo7"></td>
+ 
+    </tr>
+    </tbody>
+</table>
+</center>
+
+
+<center>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">age</th>
+   
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="demo8"></td>
+      <td id="demo9"></td>
+ 
+    </tr>
+    </tbody>
+</table>
+</center>
+
+<center>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">year</th>
+   
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="demo10"></td>
+      <td id="demo11"></td>
+ 
+    </tr>
+    </tbody>
+</table>
+</center>
+
+
+</head>
+<body>
+
+
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<p id="demo11"></p>
+
+
+
+<script>
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+class students {
+  constructor(name,color) {
+    this.name = name;
+    this.color = color;
+  }
+}
+
+class bike {
+  constructor(name,color) {
+    this.name = name;
+    this.color = color;
+  }
+}
+
+class factory {
+  constructor(name, year,) {
+    this.name = name;
+    this.year = year;
+    
+  }
+}
+
+const myCar = new Car("nano", 1980);
+document.getElementById("demo").innerHTML =myCar.name;
+document.getElementById("demo1").innerHTML =myCar.year;
+
+
+const myCar1 = new Car("innova", 1997);
+document.getElementById("demo2").innerHTML =myCar1.name;
+document.getElementById("demo3").innerHTML =myCar1.year;
+
+
+const myCar2 = new Car("Audi", 1996);
+document.getElementById("demo4").innerHTML =myCar2.name;
+document.getElementById("demo5").innerHTML =myCar2.year;
+
+const stud3 = new students("RAVISHANKAR","normal");
+document.getElementById("demo6").innerHTML =stud3.name;
+document.getElementById("demo7").innerHTML =stud3.color;
+
+const mybike4 = new bike ("Bullet","black");
+document.getElementById("demo8").innerHTML =mybike4.name;
+document.getElementById("demo9").innerHTML =mybike4.color;
+
+const myfactory5 = new factory("wistron", 2022);
+document.getElementById("demo10").innerHTML =myfactory5.name;
+document.getElementById("demo11").innerHTML =myfactory5.year;
+</script>
+
+
+
+</script>
+
+</body>
+</html>
